@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1590047331882" stop="1590047424912" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Amazon user I should be able to login and logout with valid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1590047331932" stop="1590047375274" status="broken">
+            <name>Searching different products after login using data from excel</name>
+            <title>Searching different products after login using data from excel</title>
+            <description type="text"></description>
+            <failure>
+                <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'nav-search-field')]/input"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'KARISHMAJ-MSL1', ip: '172.31.17.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\KARISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.61, webStorageEnabled: true}
+Session ID: 125e0167855563e620ef6dac4e9e2ad9
+*** Element info: {Using=xpath, value=//div[contains(@class,'nav-search-field')]/input}</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'nav-search-field')]/input"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'KARISHMAJ-MSL1', ip: '172.31.17.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\KARISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.61, webStorageEnabled: true}
+Session ID: 125e0167855563e620ef6dac4e9e2ad9
+*** Element info: {Using=xpath, value=//div[contains(@class,'nav-search-field')]/input}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy19.sendKeys(Unknown Source)
+	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.search_different_something_from_the_search_bar(loginLogoutPageStepDefinitions.java:123)
+	at ✽.And search different "products" from the search bar(src/test/resources/features/login/login_logout.feature:49)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1590047339632" stop="1590047364756" status="passed">
+                    <name>Given user is on the Login page URL "ROW1"</name>
+                    <title>Given user is on the Login page URL "ROW1"</title>
+                </step>
+                <step start="1590047364757" stop="1590047368145" status="passed">
+                    <name>When user click on sign in button</name>
+                    <title>When user click on sign in button</title>
+                </step>
+                <step start="1590047368145" stop="1590047368198" status="passed">
+                    <name>Then user should see Sign In Page</name>
+                    <title>Then user should see Sign In Page</title>
+                </step>
+                <step start="1590047368198" stop="1590047368555" status="passed">
+                    <name>When enter username as "username"</name>
+                    <title>When enter username as "username"</title>
+                </step>
+                <step start="1590047368556" stop="1590047370232" status="passed">
+                    <name>And click on Continue button</name>
+                    <title>And click on Continue button</title>
+                </step>
+                <step start="1590047370232" stop="1590047370415" status="passed">
+                    <name>And enter password as "Password"</name>
+                    <title>And enter password as "Password"</title>
+                </step>
+                <step start="1590047370415" stop="1590047372649" status="passed">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                </step>
+                <step start="1590047372649" stop="1590047372790" status="passed">
+                    <name>Then user is logged in</name>
+                    <title>Then user is logged in</title>
+                </step>
+                <step start="1590047372790" stop="1590047372824" status="broken">
+                    <name>And search different "products" from the search bar</name>
+                    <title>And search different "products" from the search bar</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="5627e775-9617-4272-9860-223666c205d9-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Searching different products after login using data from excel"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="KarishmaJ-MSL1"/>
+                <label name="thread" value="18580@KarishmaJ-MSL1.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1590047375275" stop="1590047404027" status="broken">
+            <name>Searching different products after login using data from excel</name>
+            <title>Searching different products after login using data from excel</title>
+            <description type="text"></description>
+            <failure>
+                <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'nav-search-field')]/input"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'KARISHMAJ-MSL1', ip: '172.31.17.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\KARISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.61, webStorageEnabled: true}
+Session ID: 6842bae65c02af57fe8b86ced1175bca
+*** Element info: {Using=xpath, value=//div[contains(@class,'nav-search-field')]/input}</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'nav-search-field')]/input"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'KARISHMAJ-MSL1', ip: '172.31.17.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\KARISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.61, webStorageEnabled: true}
+Session ID: 6842bae65c02af57fe8b86ced1175bca
+*** Element info: {Using=xpath, value=//div[contains(@class,'nav-search-field')]/input}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy19.sendKeys(Unknown Source)
+	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.search_different_something_from_the_search_bar(loginLogoutPageStepDefinitions.java:123)
+	at ✽.And search different "products" from the search bar(src/test/resources/features/login/login_logout.feature:49)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1590047378230" stop="1590047386477" status="passed">
+                    <name>Given user is on the Login page URL "ROW2"</name>
+                    <title>Given user is on the Login page URL "ROW2"</title>
+                </step>
+                <step start="1590047386477" stop="1590047391663" status="passed">
+                    <name>When user click on sign in button</name>
+                    <title>When user click on sign in button</title>
+                </step>
+                <step start="1590047391664" stop="1590047391695" status="passed">
+                    <name>Then user should see Sign In Page</name>
+                    <title>Then user should see Sign In Page</title>
+                </step>
+                <step start="1590047391695" stop="1590047391829" status="passed">
+                    <name>When enter username as "username"</name>
+                    <title>When enter username as "username"</title>
+                </step>
+                <step start="1590047391829" stop="1590047392929" status="passed">
+                    <name>And click on Continue button</name>
+                    <title>And click on Continue button</title>
+                </step>
+                <step start="1590047392929" stop="1590047393058" status="passed">
+                    <name>And enter password as "Password"</name>
+                    <title>And enter password as "Password"</title>
+                </step>
+                <step start="1590047393059" stop="1590047397640" status="passed">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                </step>
+                <step start="1590047397641" stop="1590047397663" status="passed">
+                    <name>Then user is logged in</name>
+                    <title>Then user is logged in</title>
+                </step>
+                <step start="1590047397663" stop="1590047397688" status="broken">
+                    <name>And search different "products" from the search bar</name>
+                    <title>And search different "products" from the search bar</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment1" source="0cf6eeb4-e89b-4ea5-a18f-7eb1152b84e7-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Searching different products after login using data from excel"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="KarishmaJ-MSL1"/>
+                <label name="thread" value="18580@KarishmaJ-MSL1.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1590047404028" stop="1590047424906" status="broken">
+            <name>Searching different products after login using data from excel</name>
+            <title>Searching different products after login using data from excel</title>
+            <description type="text"></description>
+            <failure>
+                <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'nav-search-field')]/input"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'KARISHMAJ-MSL1', ip: '172.31.17.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\KARISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.61, webStorageEnabled: true}
+Session ID: 2eb918525b2afdba0a3b159f59147a6c
+*** Element info: {Using=xpath, value=//div[contains(@class,'nav-search-field')]/input}</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'nav-search-field')]/input"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'KARISHMAJ-MSL1', ip: '172.31.17.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\KARISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.61, webStorageEnabled: true}
+Session ID: 2eb918525b2afdba0a3b159f59147a6c
+*** Element info: {Using=xpath, value=//div[contains(@class,'nav-search-field')]/input}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy19.sendKeys(Unknown Source)
+	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.search_different_something_from_the_search_bar(loginLogoutPageStepDefinitions.java:123)
+	at ✽.And search different "products" from the search bar(src/test/resources/features/login/login_logout.feature:49)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1590047407359" stop="1590047415094" status="passed">
+                    <name>Given user is on the Login page URL "ROW3"</name>
+                    <title>Given user is on the Login page URL "ROW3"</title>
+                </step>
+                <step start="1590047415094" stop="1590047417050" status="passed">
+                    <name>When user click on sign in button</name>
+                    <title>When user click on sign in button</title>
+                </step>
+                <step start="1590047417050" stop="1590047417087" status="passed">
+                    <name>Then user should see Sign In Page</name>
+                    <title>Then user should see Sign In Page</title>
+                </step>
+                <step start="1590047417087" stop="1590047417236" status="passed">
+                    <name>When enter username as "username"</name>
+                    <title>When enter username as "username"</title>
+                </step>
+                <step start="1590047417236" stop="1590047418251" status="passed">
+                    <name>And click on Continue button</name>
+                    <title>And click on Continue button</title>
+                </step>
+                <step start="1590047418251" stop="1590047418426" status="passed">
+                    <name>And enter password as "Password"</name>
+                    <title>And enter password as "Password"</title>
+                </step>
+                <step start="1590047418426" stop="1590047422057" status="passed">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                </step>
+                <step start="1590047422057" stop="1590047422083" status="passed">
+                    <name>Then user is logged in</name>
+                    <title>Then user is logged in</title>
+                </step>
+                <step start="1590047422083" stop="1590047422102" status="broken">
+                    <name>And search different "products" from the search bar</name>
+                    <title>And search different "products" from the search bar</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment2" source="4d980cd6-620f-48c2-af66-d9aabfed9495-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Searching different products after login using data from excel"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="KarishmaJ-MSL1"/>
+                <label name="thread" value="18580@KarishmaJ-MSL1.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

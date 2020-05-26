@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1588937113095" stop="1588937129128" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Amazon user I should be able to login and logout with valid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1588937113398" stop="1588937129126" status="pending">
+            <name>Login into the application and search for buses</name>
+            <title>Login into the application and search for buses</title>
+            <description type="text"></description>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps>
+                <step start="1588937126491" stop="1588937126499" status="canceled">
+                    <name>Given I am on the Login page URL "https://www.redbus.in"</name>
+                    <title>Given I am on the Login page URL "https://www.redbus.in"</title>
+                </step>
+                <step start="1588937126499" stop="1588937126499" status="canceled">
+                    <name>Then I enter from destination as "Mumbai"</name>
+                    <title>Then I enter from destination as "Mumbai"</title>
+                </step>
+                <step start="1588937126500" stop="1588937126500" status="canceled">
+                    <name>And I enter to destination as "Delhi"</name>
+                    <title>And I enter to destination as "Delhi"</title>
+                </step>
+                <step start="1588937126500" stop="1588937126500" status="canceled">
+                    <name>Then I enter "onward" travel Month as "Jun 2020" and date as "18"</name>
+                    <title>Then I enter "onward" travel Month as "Jun 2020" and date as "18"</title>
+                </step>
+                <step start="1588937126501" stop="1588937126501" status="canceled">
+                    <name>Then I enter "Return" travel Month for return as "July 2020" and date as "28"</name>
+                    <title>Then I enter "Return" travel Month for return as "July 2020" and date as "28"</title>
+                </step>
+                <step start="1588937126501" stop="1588937126501" status="canceled">
+                    <name>And I click on Search Buses button</name>
+                    <title>And I click on Search Buses button</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="975cb4ea-71ce-46d8-a7df-7c69bb99a24e-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application and search for buses"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="KarishmaJ-MSL1"/>
+                <label name="thread" value="13012@KarishmaJ-MSL1.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

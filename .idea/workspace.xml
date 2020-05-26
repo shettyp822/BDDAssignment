@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01996311-28b6-4c25-aefe-61fca5826556" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1cRYPPE2406gYzk6Mt3qbnZ7mUz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Selenium" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CucumberBDD" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="FILE_PATH" value="C:\CucumberFramework" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="CucumberFramework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <option name="FILE_PATH" value="C:\CucumberFramework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01996311-28b6-4c25-aefe-61fca5826556" name="Default Changelist" comment="" />
+      <created>1590492847163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590492847163</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590494748170">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1590494748170" />
+    <state x="529" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590494413684">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="529" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1590494413684" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1590494512982">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1590494512982" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1590494753587">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590494753587" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1590494753586">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590494753586" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1590494753586">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590494753586" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1590494753586">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590494753586" />
+    <state x="495" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1590492863742">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="495" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1590492863742" />
+  </component>
+</project>

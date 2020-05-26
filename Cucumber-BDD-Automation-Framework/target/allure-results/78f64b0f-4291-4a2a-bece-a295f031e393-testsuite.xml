@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1590068775098" stop="1590068911362" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Amazon user I should be able to login and logout with valid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1590068775208" stop="1590068911360" status="broken">
+            <name>Login into the application with valid credentials</name>
+            <title>Login into the application with valid credentials</title>
+            <description type="text"></description>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)
+	at com.cucumberFramework.pageObjects.LoginLogoutPage.isElementNotPresent(LoginLogoutPage.java:194)
+	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.user_is_logged_in(loginLogoutPageStepDefinitions.java:88)
+	at ✽.Then user is logged in(src/test/resources/features/login/login_logout.feature:11)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1590068786601" stop="1590068814598" status="passed">
+                    <name>Given user is on Login page URL "amazonURL"</name>
+                    <title>Given user is on Login page URL "amazonURL"</title>
+                </step>
+                <step start="1590068814600" stop="1590068826666" status="passed">
+                    <name>When user click on sign in button</name>
+                    <title>When user click on sign in button</title>
+                </step>
+                <step start="1590068826666" stop="1590068826693" status="passed">
+                    <name>Then user should see Sign In Page</name>
+                    <title>Then user should see Sign In Page</title>
+                </step>
+                <step start="1590068826694" stop="1590068827836" status="passed">
+                    <name>When enter username as "amazonUserName"</name>
+                    <title>When enter username as "amazonUserName"</title>
+                </step>
+                <step start="1590068827837" stop="1590068834171" status="passed">
+                    <name>And click on Continue button</name>
+                    <title>And click on Continue button</title>
+                </step>
+                <step start="1590068834171" stop="1590068834310" status="passed">
+                    <name>And enter password as "amazonPassword"</name>
+                    <title>And enter password as "amazonPassword"</title>
+                </step>
+                <step start="1590068834310" stop="1590068842611" status="passed">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                </step>
+                <step start="1590068842611" stop="1590068907962" status="broken">
+                    <name>Then user is logged in</name>
+                    <title>Then user is logged in</title>
+                </step>
+                <step start="1590068907962" stop="1590068907965" status="canceled">
+                    <name>And clear cart items if any</name>
+                    <title>And clear cart items if any</title>
+                </step>
+                <step start="1590068907965" stop="1590068907965" status="canceled">
+                    <name>And choose Electronincs as Headphones</name>
+                    <title>And choose Electronincs as Headphones</title>
+                </step>
+                <step start="1590068907966" stop="1590068907966" status="canceled">
+                    <name>Then add first availabe headphone to cart</name>
+                    <title>Then add first availabe headphone to cart</title>
+                </step>
+                <step start="1590068907966" stop="1590068907966" status="canceled">
+                    <name>Then search "Macbook pro" and add second available item to cart</name>
+                    <title>Then search "Macbook pro" and add second available item to cart</title>
+                </step>
+                <step start="1590068907967" stop="1590068907967" status="canceled">
+                    <name>And select cart from home and remove the earlier added headphones</name>
+                    <title>And select cart from home and remove the earlier added headphones</title>
+                </step>
+                <step start="1590068907967" stop="1590068907967" status="canceled">
+                    <name>Then reduce the quantity of the macbook pro product to one and proceed to checkout</name>
+                    <title>Then reduce the quantity of the macbook pro product to one and proceed to checkout</title>
+                </step>
+                <step start="1590068907967" stop="1590068907967" status="canceled">
+                    <name>And click on Sign out</name>
+                    <title>And click on Sign out</title>
+                </step>
+                <step start="1590068907968" stop="1590068907969" status="canceled">
+                    <name>Then user is log out from the application</name>
+                    <title>Then user is log out from the application</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Login into the application with valid credentials"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="KarishmaJ-MSL1"/>
+                <label name="thread" value="20920@KarishmaJ-MSL1.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

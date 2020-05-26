@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1590069562397" stop="1590069903481" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Amazon user I should be able to login and logout with valid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1590069562519" stop="1590069903462" status="broken">
+            <name>Login into the application with valid credentials</name>
+            <title>Login into the application with valid credentials</title>
+            <description type="text"></description>
+            <failure>
+                <message>WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'KARISHMAJ-MSL1', ip: '192.168.43.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\KARISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.61, webStorageEnabled: true}
+Session ID: 91a651fce36ea8121c6e673a88f1ca60
+*** Element info: {Using=xpath, value=//div[@id='nav-shop']/a}</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'KARISHMAJ-MSL1', ip: '192.168.43.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\KARISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.61, webStorageEnabled: true}
+Session ID: 91a651fce36ea8121c6e673a88f1ca60
+*** Element info: {Using=xpath, value=//div[@id='nav-shop']/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy19.getCoordinates(Unknown Source)
+	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:65)
+	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
+	at com.cucumberFramework.pageObjects.LoginLogoutPage.clickHeadphonesLnk(LoginLogoutPage.java:186)
+	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.choose_electronincs_as_headphones(loginLogoutPageStepDefinitions.java:104)
+	at ✽.And choose Electronincs as Headphones(src/test/resources/features/login/login_logout.feature:13)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1590069574625" stop="1590069721996" status="passed">
+                    <name>Given user is on Login page URL "amazonURL"</name>
+                    <title>Given user is on Login page URL "amazonURL"</title>
+                </step>
+                <step start="1590069721997" stop="1590069735676" status="passed">
+                    <name>When user click on sign in button</name>
+                    <title>When user click on sign in button</title>
+                </step>
+                <step start="1590069735676" stop="1590069735696" status="passed">
+                    <name>Then user should see Sign In Page</name>
+                    <title>Then user should see Sign In Page</title>
+                </step>
+                <step start="1590069735697" stop="1590069736115" status="passed">
+                    <name>When enter username as "amazonUserName"</name>
+                    <title>When enter username as "amazonUserName"</title>
+                </step>
+                <step start="1590069736115" stop="1590069737621" status="passed">
+                    <name>And click on Continue button</name>
+                    <title>And click on Continue button</title>
+                </step>
+                <step start="1590069737622" stop="1590069737744" status="passed">
+                    <name>And enter password as "amazonPassword"</name>
+                    <title>And enter password as "amazonPassword"</title>
+                </step>
+                <step start="1590069737744" stop="1590069742068" status="passed">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                </step>
+                <step start="1590069742068" stop="1590069812140" status="passed">
+                    <name>Then user is logged in</name>
+                    <title>Then user is logged in</title>
+                </step>
+                <step start="1590069812140" stop="1590069893741" status="passed">
+                    <name>And clear cart items if any</name>
+                    <title>And clear cart items if any</title>
+                </step>
+                <step start="1590069893742" stop="1590069897920" status="broken">
+                    <name>And choose Electronincs as Headphones</name>
+                    <title>And choose Electronincs as Headphones</title>
+                </step>
+                <step start="1590069897920" stop="1590069897922" status="canceled">
+                    <name>Then add first availabe headphone to cart</name>
+                    <title>Then add first availabe headphone to cart</title>
+                </step>
+                <step start="1590069897922" stop="1590069897922" status="canceled">
+                    <name>Then search "Macbook pro" and add second available item to cart</name>
+                    <title>Then search "Macbook pro" and add second available item to cart</title>
+                </step>
+                <step start="1590069897923" stop="1590069897923" status="canceled">
+                    <name>And select cart from home and remove the earlier added headphones</name>
+                    <title>And select cart from home and remove the earlier added headphones</title>
+                </step>
+                <step start="1590069897923" stop="1590069897923" status="canceled">
+                    <name>Then reduce the quantity of the macbook pro product to one and proceed to checkout</name>
+                    <title>Then reduce the quantity of the macbook pro product to one and proceed to checkout</title>
+                </step>
+                <step start="1590069897923" stop="1590069897923" status="canceled">
+                    <name>And click on Sign out</name>
+                    <title>And click on Sign out</title>
+                </step>
+                <step start="1590069897924" stop="1590069897924" status="canceled">
+                    <name>Then user is log out from the application</name>
+                    <title>Then user is log out from the application</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Login into the application with valid credentials"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="KarishmaJ-MSL1"/>
+                <label name="thread" value="19008@KarishmaJ-MSL1.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

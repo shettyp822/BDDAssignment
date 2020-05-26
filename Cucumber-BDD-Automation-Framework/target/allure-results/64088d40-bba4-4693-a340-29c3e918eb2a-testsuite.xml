@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1588937609354" stop="1588937644848" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Amazon user I should be able to login and logout with valid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1588937609446" stop="1588937636076" status="broken">
+            <name>Searching different products after login using data from excel</name>
+            <title>Searching different products after login using data from excel</title>
+            <description type="text"></description>
+            <failure>
+                <message>FileNotFoundException: D:\BDD+Java+Cucumber\W\Cucumber-BDD-Automation-Framework\src\test\resources\testdata\TestData.xlsx (The system cannot find the path specified)</message>
+                <stack-trace>java.io.FileNotFoundException: D:\BDD+Java+Cucumber\W\Cucumber-BDD-Automation-Framework\src\test\resources\testdata\TestData.xlsx (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at com.cucumberFramework.helper.Excel.readExcel(Excel.java:25)
+	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.i_am_on_the_login_page_of_url_something(loginLogoutPageStepDefinitions.java:46)
+	at ✽.Given I am on the Login page of URL "ROW1"(src/test/resources/features/login/login_logout.feature:41)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1588937632449" stop="1588937633806" status="broken">
+                    <name>Given I am on the Login page of URL "ROW1"</name>
+                    <title>Given I am on the Login page of URL "ROW1"</title>
+                </step>
+                <step start="1588937633806" stop="1588937633808" status="canceled">
+                    <name>Then I click on sign in button and wait for sign in page</name>
+                    <title>Then I click on sign in button and wait for sign in page</title>
+                </step>
+                <step start="1588937633809" stop="1588937633809" status="canceled">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                </step>
+                <step start="1588937633809" stop="1588937633809" status="canceled">
+                    <name>When I enter username as "username"</name>
+                    <title>When I enter username as "username"</title>
+                </step>
+                <step start="1588937633810" stop="1588937633810" status="canceled">
+                    <name>And I Click on Continue button</name>
+                    <title>And I Click on Continue button</title>
+                </step>
+                <step start="1588937633810" stop="1588937633810" status="canceled">
+                    <name>And I enter password as "Password"</name>
+                    <title>And I enter password as "Password"</title>
+                </step>
+                <step start="1588937633810" stop="1588937633810" status="canceled">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                </step>
+                <step start="1588937633811" stop="1588937633811" status="canceled">
+                    <name>Then I am logged in</name>
+                    <title>Then I am logged in</title>
+                </step>
+                <step start="1588937633811" stop="1588937633811" status="canceled">
+                    <name>And I search different "products" from the search bar</name>
+                    <title>And I search different "products" from the search bar</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="ec4493fd-5b9f-41ea-abe6-37695478873f-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Searching different products after login using data from excel"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="KarishmaJ-MSL1"/>
+                <label name="thread" value="23796@KarishmaJ-MSL1.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1588937636077" stop="1588937640676" status="broken">
+            <name>Searching different products after login using data from excel</name>
+            <title>Searching different products after login using data from excel</title>
+            <description type="text"></description>
+            <failure>
+                <message>FileNotFoundException: D:\BDD+Java+Cucumber\W\Cucumber-BDD-Automation-Framework\src\test\resources\testdata\TestData.xlsx (The system cannot find the path specified)</message>
+                <stack-trace>java.io.FileNotFoundException: D:\BDD+Java+Cucumber\W\Cucumber-BDD-Automation-Framework\src\test\resources\testdata\TestData.xlsx (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at com.cucumberFramework.helper.Excel.readExcel(Excel.java:25)
+	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.i_am_on_the_login_page_of_url_something(loginLogoutPageStepDefinitions.java:46)
+	at ✽.Given I am on the Login page of URL "ROW2"(src/test/resources/features/login/login_logout.feature:41)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1588937639151" stop="1588937639153" status="broken">
+                    <name>Given I am on the Login page of URL "ROW2"</name>
+                    <title>Given I am on the Login page of URL "ROW2"</title>
+                </step>
+                <step start="1588937639154" stop="1588937639154" status="canceled">
+                    <name>Then I click on sign in button and wait for sign in page</name>
+                    <title>Then I click on sign in button and wait for sign in page</title>
+                </step>
+                <step start="1588937639154" stop="1588937639154" status="canceled">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                </step>
+                <step start="1588937639155" stop="1588937639155" status="canceled">
+                    <name>When I enter username as "username"</name>
+                    <title>When I enter username as "username"</title>
+                </step>
+                <step start="1588937639155" stop="1588937639155" status="canceled">
+                    <name>And I Click on Continue button</name>
+                    <title>And I Click on Continue button</title>
+                </step>
+                <step start="1588937639155" stop="1588937639155" status="canceled">
+                    <name>And I enter password as "Password"</name>
+                    <title>And I enter password as "Password"</title>
+                </step>
+                <step start="1588937639158" stop="1588937639158" status="canceled">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                </step>
+                <step start="1588937639158" stop="1588937639158" status="canceled">
+                    <name>Then I am logged in</name>
+                    <title>Then I am logged in</title>
+                </step>
+                <step start="1588937639159" stop="1588937639159" status="canceled">
+                    <name>And I search different "products" from the search bar</name>
+                    <title>And I search different "products" from the search bar</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment1" source="37e6b525-5ade-4fee-b323-e382fc518c68-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Searching different products after login using data from excel"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="KarishmaJ-MSL1"/>
+                <label name="thread" value="23796@KarishmaJ-MSL1.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1588937640676" stop="1588937644844" status="broken">
+            <name>Searching different products after login using data from excel</name>
+            <title>Searching different products after login using data from excel</title>
+            <description type="text"></description>
+            <failure>
+                <message>FileNotFoundException: D:\BDD+Java+Cucumber\W\Cucumber-BDD-Automation-Framework\src\test\resources\testdata\TestData.xlsx (The system cannot find the path specified)</message>
+                <stack-trace>java.io.FileNotFoundException: D:\BDD+Java+Cucumber\W\Cucumber-BDD-Automation-Framework\src\test\resources\testdata\TestData.xlsx (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at com.cucumberFramework.helper.Excel.readExcel(Excel.java:25)
+	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.i_am_on_the_login_page_of_url_something(loginLogoutPageStepDefinitions.java:46)
+	at ✽.Given I am on the Login page of URL "ROW3"(src/test/resources/features/login/login_logout.feature:41)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1588937642853" stop="1588937642858" status="broken">
+                    <name>Given I am on the Login page of URL "ROW3"</name>
+                    <title>Given I am on the Login page of URL "ROW3"</title>
+                </step>
+                <step start="1588937642859" stop="1588937642859" status="canceled">
+                    <name>Then I click on sign in button and wait for sign in page</name>
+                    <title>Then I click on sign in button and wait for sign in page</title>
+                </step>
+                <step start="1588937642859" stop="1588937642859" status="canceled">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                </step>
+                <step start="1588937642859" stop="1588937642859" status="canceled">
+                    <name>When I enter username as "username"</name>
+                    <title>When I enter username as "username"</title>
+                </step>
+                <step start="1588937642860" stop="1588937642860" status="canceled">
+                    <name>And I Click on Continue button</name>
+                    <title>And I Click on Continue button</title>
+                </step>
+                <step start="1588937642860" stop="1588937642860" status="canceled">
+                    <name>And I enter password as "Password"</name>
+                    <title>And I enter password as "Password"</title>
+                </step>
+                <step start="1588937642860" stop="1588937642860" status="canceled">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                </step>
+                <step start="1588937642860" stop="1588937642860" status="canceled">
+                    <name>Then I am logged in</name>
+                    <title>Then I am logged in</title>
+                </step>
+                <step start="1588937642860" stop="1588937642860" status="canceled">
+                    <name>And I search different "products" from the search bar</name>
+                    <title>And I search different "products" from the search bar</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment2" source="e0d34a85-4049-4a86-8520-854890ed9ca6-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Searching different products after login using data from excel"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="KarishmaJ-MSL1"/>
+                <label name="thread" value="23796@KarishmaJ-MSL1.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

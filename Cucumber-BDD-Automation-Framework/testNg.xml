@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite">
+<listeners>
+<listener class-name= "com.cucumberFramework.Resources.ExtentReporterNG"/>
+</listeners>
+    <test name="Regression Test" preserve-order="true">
+        <classes>
+            <class name="com.cucumberFramework.testRunner.TestRunner"/>
+        </classes>
+    </test>
+</suite>

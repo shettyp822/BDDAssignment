@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1588689080700" stop="1588689261262" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Amazon user I should be able to login and logout with valid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1588689080850" stop="1588689261260" status="broken">
+            <name>Login into the application and search for flights</name>
+            <title>Login into the application and search for flights</title>
+            <description type="text"></description>
+            <failure>
+                <message>TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (7e7278ec66222d54a9bfdf2c6543754a)] -&gt; xpath: //input[@type='email']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'KARISHMAJ-MSL1', ip: '172.31.17.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\KARISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.129, webStorageEnabled: true}
+Session ID: 7e7278ec66222d54a9bfdf2c6543754a</message>
+                <stack-trace>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (7e7278ec66222d54a9bfdf2c6543754a)] -&gt; xpath: //input[@type='email']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'KARISHMAJ-MSL1', ip: '172.31.17.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\KARISH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.129, webStorageEnabled: true}
+Session ID: 7e7278ec66222d54a9bfdf2c6543754a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.cucumberFramework.pageObjects.LoginLogoutPage.waitForElement(LoginLogoutPage.java:206)
+	at com.cucumberFramework.stepdefinitions.loginLogoutPageStepDefinitions.i_click_on_continue_with_email_button(loginLogoutPageStepDefinitions.java:135)
+	at ✽.When I click on Continue with email button(src/test/resources/features/login/login_logout.feature:44)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1588689089195" stop="1588689098008" status="passed">
+                    <name>Given I am on the Login page URL "https://www.tripadvisor.in/"</name>
+                    <title>Given I am on the Login page URL "https://www.tripadvisor.in/"</title>
+                </step>
+                <step start="1588689098010" stop="1588689198859" status="passed">
+                    <name>Then I click on sign in button and wait for sign in page for Tripadvisor</name>
+                    <title>Then I click on sign in button and wait for sign in page for Tripadvisor</title>
+                </step>
+                <step start="1588689198860" stop="1588689198892" status="passed">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                </step>
+                <step start="1588689198893" stop="1588689259152" status="broken">
+                    <name>When I click on Continue with email button</name>
+                    <title>When I click on Continue with email button</title>
+                </step>
+                <step start="1588689259152" stop="1588689259154" status="canceled">
+                    <name>And I enter username as "testkjfc1234@gmail.com"</name>
+                    <title>And I enter username as "testkjfc1234@gmail.com"</title>
+                </step>
+                <step start="1588689259154" stop="1588689259154" status="canceled">
+                    <name>And I enter password as "ABCDabcd"</name>
+                    <title>And I enter password as "ABCDabcd"</title>
+                </step>
+                <step start="1588689259155" stop="1588689259155" status="canceled">
+                    <name>And I click on Log in button of Tripadvisor</name>
+                    <title>And I click on Log in button of Tripadvisor</title>
+                </step>
+                <step start="1588689259155" stop="1588689259155" status="canceled">
+                    <name>Then I am logged in on Tripadvsior</name>
+                    <title>Then I am logged in on Tripadvsior</title>
+                </step>
+                <step start="1588689259155" stop="1588689259155" status="canceled">
+                    <name>Then I click on Flight link and verify to be on flight booking page</name>
+                    <title>Then I click on Flight link and verify to be on flight booking page</title>
+                </step>
+                <step start="1588689259155" stop="1588689259155" status="canceled">
+                    <name>Then I enter from destination as "Mumbai"</name>
+                    <title>Then I enter from destination as "Mumbai"</title>
+                </step>
+                <step start="1588689259155" stop="1588689259155" status="canceled">
+                    <name>And I enter to destination as "Delhi"</name>
+                    <title>And I enter to destination as "Delhi"</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="b044aaa8-c0e4-4168-99d6-a6ad0d85a0e2-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application and search for flights"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="KarishmaJ-MSL1"/>
+                <label name="thread" value="19168@KarishmaJ-MSL1.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

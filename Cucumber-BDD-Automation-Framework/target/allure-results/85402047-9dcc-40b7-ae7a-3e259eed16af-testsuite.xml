@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1588686605503" stop="1588686830870" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Amazon user I should be able to login and logout with valid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1588686605540" stop="1588686830868" status="pending">
+            <name>Login into the application and search for flights</name>
+            <title>Login into the application and search for flights</title>
+            <description type="text"></description>
+            <failure>
+                <message>Unimplemented steps were found</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps>
+                <step start="1588686611652" stop="1588686643866" status="passed">
+                    <name>Given I am on the Login page URL "https://www.tripadvisor.in/"</name>
+                    <title>Given I am on the Login page URL "https://www.tripadvisor.in/"</title>
+                </step>
+                <step start="1588686643867" stop="1588686708428" status="passed">
+                    <name>Then I click on sign in button and wait for sign in page for Tripadvisor</name>
+                    <title>Then I click on sign in button and wait for sign in page for Tripadvisor</title>
+                </step>
+                <step start="1588686708429" stop="1588686708466" status="passed">
+                    <name>Then I should see Sign In Page</name>
+                    <title>Then I should see Sign In Page</title>
+                </step>
+                <step start="1588686708466" stop="1588686828539" status="broken">
+                    <name>When I click on Continue with email button</name>
+                    <title>When I click on Continue with email button</title>
+                </step>
+                <step start="1588686828540" stop="1588686828542" status="canceled">
+                    <name>I enter tripadvisor username as "testkjfc1234@gmail.com"</name>
+                    <title>I enter tripadvisor username as "testkjfc1234@gmail.com"</title>
+                </step>
+                <step start="1588686828544" stop="1588686828544" status="canceled">
+                    <name>I enter tripadvisor password as "ABCDabcd"</name>
+                    <title>I enter tripadvisor password as "ABCDabcd"</title>
+                </step>
+                <step start="1588686828544" stop="1588686828544" status="canceled">
+                    <name>And I click on Log in button of Tripadvisor</name>
+                    <title>And I click on Log in button of Tripadvisor</title>
+                </step>
+                <step start="1588686828545" stop="1588686828545" status="canceled">
+                    <name>Then I am logged in on Tripadvsior</name>
+                    <title>Then I am logged in on Tripadvsior</title>
+                </step>
+                <step start="1588686828545" stop="1588686828545" status="canceled">
+                    <name>Then I click on Flight link and verify to be on flight booking page</name>
+                    <title>Then I click on Flight link and verify to be on flight booking page</title>
+                </step>
+                <step start="1588686828545" stop="1588686828545" status="canceled">
+                    <name>Then I enter from destination as "Mumbai"</name>
+                    <title>Then I enter from destination as "Mumbai"</title>
+                </step>
+                <step start="1588686828546" stop="1588686828546" status="canceled">
+                    <name>And I enter to destination as "Delhi"</name>
+                    <title>And I enter to destination as "Delhi"</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="9369f978-64db-4234-8ab6-f32c6356fd32-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application and search for flights"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="KarishmaJ-MSL1"/>
+                <label name="thread" value="15552@KarishmaJ-MSL1.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

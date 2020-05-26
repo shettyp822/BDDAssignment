@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1588774193661" stop="1588774228915" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Amazon user I should be able to login and logout with valid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1588774194329" stop="1588774228913" status="pending">
+            <name>Login into the application and search for flights</name>
+            <title>Login into the application and search for flights</title>
+            <description type="text"></description>
+            <failure>
+                <message>Unimplemented steps were found</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps>
+                <step start="1588774220993" stop="1588774225890" status="passed">
+                    <name>Given I am on the Login page URL "https://www.makemytrip.com"</name>
+                    <title>Given I am on the Login page URL "https://www.makemytrip.com"</title>
+                </step>
+                <step start="1588774225892" stop="1588774225894" status="canceled">
+                    <name>I click on sign in button and wait for sign in page for MakeMyTrip</name>
+                    <title>I click on sign in button and wait for sign in page for MakeMyTrip</title>
+                </step>
+                <step start="1588774225900" stop="1588774225900" status="canceled">
+                    <name>Then I should see Sign In Page of MakeMyTrip</name>
+                    <title>Then I should see Sign In Page of MakeMyTrip</title>
+                </step>
+                <step start="1588774225901" stop="1588774225901" status="canceled">
+                    <name>I enter username of MakemMyTrip as "testusername"</name>
+                    <title>I enter username of MakemMyTrip as "testusername"</title>
+                </step>
+                <step start="1588774225901" stop="1588774225901" status="canceled">
+                    <name>And I Click on Continue button under loginpage of MakeMyTrip</name>
+                    <title>And I Click on Continue button under loginpage of MakeMyTrip</title>
+                </step>
+                <step start="1588774225901" stop="1588774225901" status="canceled">
+                    <name>And I enter password of MakeMyTrip as "testpassword"</name>
+                    <title>And I enter password of MakeMyTrip as "testpassword"</title>
+                </step>
+                <step start="1588774225901" stop="1588774225901" status="canceled">
+                    <name>And click on login button of MakeMyTrip</name>
+                    <title>And click on login button of MakeMyTrip</title>
+                </step>
+                <step start="1588774225902" stop="1588774225902" status="canceled">
+                    <name>Then I am logged in on MakeMytrip</name>
+                    <title>Then I am logged in on MakeMytrip</title>
+                </step>
+                <step start="1588774225902" stop="1588774225902" status="canceled">
+                    <name>Then I click on Flight link and select Round Trip</name>
+                    <title>Then I click on Flight link and select Round Trip</title>
+                </step>
+                <step start="1588774225902" stop="1588774225902" status="canceled">
+                    <name>Then I enter from destination as "Mumbai"</name>
+                    <title>Then I enter from destination as "Mumbai"</title>
+                </step>
+                <step start="1588774225902" stop="1588774225902" status="canceled">
+                    <name>And I enter to destination as "Delhi"</name>
+                    <title>And I enter to destination as "Delhi"</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="15ad5aa3-f666-4c1c-9c74-e8b6719fd596-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application and search for flights"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="KarishmaJ-MSL1"/>
+                <label name="thread" value="20736@KarishmaJ-MSL1.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

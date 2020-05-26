@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1590047183561" stop="1590047242490" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Amazon user I should be able to login and logout with valid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1590047184192" stop="1590047242484" status="passed">
+            <name>Login into the application and search for buses</name>
+            <title>Login into the application and search for buses</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1590047203137" stop="1590047220869" status="passed">
+                    <name>Given user is on Login page URL "https://www.redbus.in"</name>
+                    <title>Given user is on Login page URL "https://www.redbus.in"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590047220869" stop="1590047223789" status="passed">
+                    <name>When user enter from destination as "Mumbai"</name>
+                    <title>When user enter from destination as "Mumbai"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590047223789" stop="1590047224849" status="passed">
+                    <name>And enter to destination as "Delhi"</name>
+                    <title>And enter to destination as "Delhi"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590047224849" stop="1590047230362" status="passed">
+                    <name>And enter "onward" travel Month as "Jun 2020" and date as "18"</name>
+                    <title>And enter "onward" travel Month as "Jun 2020" and date as "18"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590047230362" stop="1590047235839" status="passed">
+                    <name>And enter "Return" travel Month for return as "July 2020" and date as "28"</name>
+                    <title>And enter "Return" travel Month for return as "July 2020" and date as "28"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1590047235840" stop="1590047239744" status="passed">
+                    <name>Then click on Search Buses button</name>
+                    <title>Then click on Search Buses button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="80be2633-014c-4158-91ff-4660a4a1e551-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application and search for buses"/>
+                <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="KarishmaJ-MSL1"/>
+                <label name="thread" value="13068@KarishmaJ-MSL1.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Amazon user I should be able to login and logout with valid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
