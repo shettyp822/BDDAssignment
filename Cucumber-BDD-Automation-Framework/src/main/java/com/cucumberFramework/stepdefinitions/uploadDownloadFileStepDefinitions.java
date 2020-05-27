@@ -19,6 +19,7 @@ public class uploadDownloadFileStepDefinitions extends  TestBase {
 
     @Given("^I am on the pdf converter page (.+)$")
     public void i_am_on_the_pdf_converter_page(String url) throws Throwable {
+        getUrl(prop.get("excelUploadDownloadFileName"), prop.get("uploadDownloadSheetName"),url);
         //driver.get(uploadDownloadFile.getUrl(prop.get("excelUploadDownloadFileName"), prop.get("uploadDownloadSheetName"),url));
     }
 

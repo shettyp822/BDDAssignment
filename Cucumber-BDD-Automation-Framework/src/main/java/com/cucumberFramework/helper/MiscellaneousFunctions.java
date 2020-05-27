@@ -1,5 +1,6 @@
 package com.cucumberFramework.helper;
 
+import com.cucumberFramework.testBase.TestBase;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
@@ -17,14 +18,13 @@ import static com.cucumberFramework.helper.Excel.readExcel;
 import static com.cucumberFramework.stepdefinitions.ServiceHooks.prop;
 
 
-public class MiscellaneousFunctions {
+public class MiscellaneousFunctions extends TestBase {
 
-
-    public String getUrl(String fileName, String sheetName, String url) throws IOException {
+    public static void getUrl(Object fileName, Object sheetName, String url) throws IOException {
         int row = Integer.parseInt(url.substring(3));
-        readExcel(System.getProperty("user.dir")+"\\src\\test\\resources\\testdata",fileName,sheetName,row);
+        readExcel(System.getProperty("user.dir")+"\\src\\test\\resources\\testdata",fileName.toString(),sheetName.toString(),row);
         String url1 = getExcelValue("url");
-        return url1;
+        driver.get(url1);
     }
 
     public static void clickElementJavascript() {
