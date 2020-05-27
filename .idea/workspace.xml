@@ -1,29 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CucumberFramework:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="01996311-28b6-4c25-aefe-61fca5826556" name="Default Changelist" comment="" />
+    <list default="true" id="01996311-28b6-4c25-aefe-61fca5826556" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cucumber-BDD-Automation-Framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cucumber-BDD-Automation-Framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cucumber-BDD-Automation-Framework/src/main/java/com/cucumberFramework/testRunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cucumber-BDD-Automation-Framework/src/main/java/com/cucumberFramework/testRunner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cucumber-BDD-Automation-Framework/src/test/resources/features/login/login_logout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Cucumber-BDD-Automation-Framework/src/test/resources/features/login/login_logout.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cRYPPE2406gYzk6Mt3qbnZ7mUz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Selenium" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CucumberFramework - Copy" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
-    <configuration name="CucumberBDD" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="FILE_PATH" value="C:\CucumberFramework" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="Scenario: Searching different products after login using data from excel" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Cucumber-BDD-Automation-Framework/src/test/resources/features/login/login_logout.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.cli.Main" />
       <module name="CucumberFramework" />
+      <option name="NAME_FILTER" value="^Searching different products after login using data from excel$" />
+      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Searching different products after login using data from excel$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Searching different products after login using data from excel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -34,6 +66,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Scenario: Searching different products after login using data from excel" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,38 +85,45 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590494748170">
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590555850239">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1590494748170" />
-    <state x="529" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590494413684">
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1590555850239" />
+    <state x="529" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590498579412">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="529" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1590494413684" />
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1590494512982">
+    <state x="529" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1590498579412" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1590556088146">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1590494512982" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1590494753587">
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1590556088146" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1590499687601">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590494753587" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1590494753586">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590499687601" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1590499687601">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590494753586" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1590494753586">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590499687601" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1590499687601">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590494753586" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1590494753586">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590499687601" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1590499687601">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590494753586" />
-    <state x="495" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1590492863742">
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590499687601" />
+    <state x="280" y="4" key="SettingsEditor" timestamp="1590555955993">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="495" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1590492863742" />
+    <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1590555955993" />
+    <state x="495" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1590555748786">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="495" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1590555748786" />
   </component>
 </project>

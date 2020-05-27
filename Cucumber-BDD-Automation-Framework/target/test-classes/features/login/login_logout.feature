@@ -1,4 +1,5 @@
 Feature: As a Amazon user I should be able to login and logout with valid credentials
+
 	@First
   Scenario: Login into the application with valid credentials
   	Given user is on Login page URL "amazonURL"
@@ -16,7 +17,7 @@ Feature: As a Amazon user I should be able to login and logout with valid creden
     And select cart from home and remove the earlier added headphones
     Then reduce the quantity of the macbook pro product to one and proceed to checkout
     And click on Sign out
-	  Then user is log out from the application
+    Then user is log out from the application
    
    
   Scenario Outline: Searching different products after login
@@ -28,7 +29,7 @@ Feature: As a Amazon user I should be able to login and logout with valid creden
     And enter password as "<password>"
     And click on login button
     Then user is logged in
-		And search different "<products>" from the search bar
+    And search different "<products>" from the search bar
 		
  	Examples:
 	 		| username   | password  | products |

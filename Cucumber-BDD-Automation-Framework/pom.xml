@@ -177,9 +177,7 @@
 							<enableFlashCharts>false</enableFlashCharts>
 							<skippedFails>true</skippedFails>
 						</configuration>
-						
-				
-						
+
 					</execution>
 				</executions>
 			</plugin>

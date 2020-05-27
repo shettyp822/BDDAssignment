@@ -2,6 +2,7 @@ package com.cucumberFramework.stepdefinitions;
 
 import java.util.concurrent.TimeUnit;
 
+import com.cucumberFramework.helper.MiscellaneousFunctions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -26,6 +27,7 @@ public class loginLogoutPageStepDefinitions extends TestBase {
 	WaitHelper waitHelper = new WaitHelper(driver);
 	WebDriverWait waitElement = new WebDriverWait(driver , 30);
 	ReadPropertyFile prop = new ReadPropertyFile();
+
 	
 	@Given("^user is on Login page URL \"([^\"]*)\"$")
     public void user_in_on_login_page_url_something(String arg1) throws Throwable {

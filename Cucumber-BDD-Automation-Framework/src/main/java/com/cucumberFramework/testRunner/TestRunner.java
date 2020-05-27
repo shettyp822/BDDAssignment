@@ -9,7 +9,7 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 
-@CucumberOptions(features = "src/test/resources/features/login/login_logout.feature", glue = { "com/cucumberFramework/stepdefinitions" }, plugin = { "pretty", "html:target/cucumber-reports/cucumber-html-reports.html",
+@CucumberOptions(features = "src/test/resources/features/login/", glue = { "src/main/java/com/cucumberFramework/stepdefinitions/" }, plugin = { "pretty", "html:target/cucumber-reports/cucumber-html-reports.html",
 		"json:target/cucumber-reports/CucumberTestReport.json", "rerun:target/cucumber-reports/rerun.txt" },
 		monochrome = true, dryRun = false , tags = {"@First"})
 public class TestRunner {
@@ -21,7 +21,7 @@ public class TestRunner {
 		testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
 	}
 
-	@Test(groups = "cucumber", description = "Runs cucmber Features", dataProvider = "features")
+	@Test(groups = "cucumber", description = "Runs cucumber Features", dataProvider = "features")
 	public void feature(CucumberFeatureWrapper cucumberFeature) {
 		testNGCucumberRunner.runCucumber(cucumberFeature.getCucumberFeature());
 	}
